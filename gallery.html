@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/ArtezaLogo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Arteza Interiors</title>
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+          <img class="logo" src="images/ArtezaLogo1.png">
+          <div class="menu-btn"></div>
+          <div class="navigation">
+            <div class="nav-items">
+              <a href="index.html#home">home</a>
+              <a href="index.html#about">about</a>
+              <a href="index.html#services">services</a>
+              <a href="index.html#gallery">gallery</a>
+              <a href="index.html#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+          <div class="box">
+            <div class="dream">
+              <img src="images/1.jpg" alt="" onclick="openModal(); currentSlide(1)" class="hover-shadow">
+              <img src="images/4.jpg" alt="" onclick="openModal(); currentSlide(4)" class="hover-shadow">
+              <img src="images/7.jpg" alt="" onclick="openModal(); currentSlide(7)" class="hover-shadow">
+              <img src="images/10.jpg" alt="" onclick="openModal(); currentSlide(10)" class="hover-shadow">
+              <img src="images/13.jpg" alt="" onclick="openModal(); currentSlide(13)" class="hover-shadow">
+              <img src="images/16.jpg" alt="" onclick="openModal(); currentSlide(16)" class="hover-shadow">
+              <img src="images/19.jpg" alt="" onclick="openModal(); currentSlide(19)" class="hover-shadow">
+              <img src="images/22.png" alt="" onclick="openModal(); currentSlide(22)" class="hover-shadow">
+              <img src="images/25.jpg" alt="" onclick="openModal(); currentSlide(25)" class="hover-shadow">
+            </div>
+            
+            <div class="dream">
+              <img src="images/2.jpg" alt="" onclick="openModal(); currentSlide(2)" class="hover-shadow">
+              <img src="images/5.jpg" alt="" onclick="openModal(); currentSlide(5)" class="hover-shadow">
+              <img src="images/8.jpg" alt="" onclick="openModal(); currentSlide(8)" class="hover-shadow">
+              <img src="images/11.jpg" alt="" onclick="openModal(); currentSlide(11)" class="hover-shadow">
+              <img src="images/14.jpg" alt="" onclick="openModal(); currentSlide(14)" class="hover-shadow">
+              <img src="images/17.jpg" alt="" onclick="openModal(); currentSlide(17)" class="hover-shadow">
+              <img src="images/20.png" alt="" onclick="openModal(); currentSlide(20)" class="hover-shadow">
+              <img src="images/23.png" alt="" onclick="openModal(); currentSlide(23)" class="hover-shadow">
+              <img src="images/26.jpg" alt="" onclick="openModal(); currentSlide(26)" class="hover-shadow">
+            </div>
+
+            <div class="dream">
+              <img src="images/3.jpg" alt="" onclick="openModal(); currentSlide(3)" class="hover-shadow">
+              <img src="images/6.jpg" alt="" onclick="openModal(); currentSlide(6)" class="hover-shadow">
+              <img src="images/9.jpg" alt="" onclick="openModal(); currentSlide(9)" class="hover-shadow">
+              <img src="images/12.jpg" alt="" onclick="openModal(); currentSlide(12)" class="hover-shadow">
+              <img src="images/15.jpg" alt="" onclick="openModal(); currentSlide(15)" class="hover-shadow">
+              <img src="images/18.jpg" alt="" onclick="openModal(); currentSlide(18)" class="hover-shadow">
+              <img src="images/21.png" alt="" onclick="openModal(); currentSlide(21)" class="hover-shadow">
+              <img src="images/24.jpg" alt="" onclick="openModal(); currentSlide(24)" class="hover-shadow">
+              <img src="images/27.png" alt="" onclick="openModal(); currentSlide(27)" class="hover-shadow">
+            </div>
+            
+          </div>
+        </div>
+    
+          <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            
+          
+          <div class="modal-content">
+            <span class="close cursor" onclick="closeModal()"> &times;</span>
+          
+            <div class="mySlides">
+              <div class="numbertext">1 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/1.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/3.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">4 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/4.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">5 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/5.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">6 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/6.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">7 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/7.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">8 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/8.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">9 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/9.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">10 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/10.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">11 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/11.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">12 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/12.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">13 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/13.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">14 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/14.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">15 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/15.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">16 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/16.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">17 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/17.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">18 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/18.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">19 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/19.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">20 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/20.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">21 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/21.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">22 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/22.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">23 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/23.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">24 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/24.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">25 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/25.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">26 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/26.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">27 / 27</div>
+              <div class="caption">Arteza Interiors</div>
+              <img src="images/27.png" style="width:100%">
+            </div>
+          
+          </div>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+
+    <script src="index.js"></script>
+    <script>(function(w, d) { w.CollectId = "624d2f7d4a37fc68f8b4ec2c"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
+    </script>
+</body>
+</html>

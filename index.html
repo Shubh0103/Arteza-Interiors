@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arteza Interiors</title>
+  <link rel="shortcut icon" href="images/ArtezaLogo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/misto" type="text/css"/>
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <img class="logo" src="images/ArtezaLogo1.png">
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="nav-items">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#services">services</a>
+          <a href="#gallery">gallery</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+   <video src="images/Pexels-Cottonbro-7507166.m4v" autoplay muted loop></video>
+    <div class="content">
+      <h1>ARTEZA<br><span>INTERIORS</span></h1>
+      <h3>INTERIOR INSPIRED BY INNOVATION</h3>
+    </div> 
+  </section>
+
+  <section class="about" id="about">
+    <img src="images/30.jpg" alt="">
+    <div class="details">
+      <p>'Arteza Interiors' is an interior design firm, involved exceptionally qualified designers and visualizers that work cooperatively to make cheerful and interesting interior conditions. Our enthusiasm to make spaces that mirror your vision and bring bliss and peace. We care for individuals by make spaces where they feel comfortable, yet work perfectly.</p><br>
+      <p>We may have started our firm recently, but we control structures and mixes from our regular world to make a stylish, down-to-earth, and practical environment that changes a straightforward space into a position of bliss for you and your visitors.</p><br>
+      <p>With 'Arteza Interriors', no detail is close to nothing, and no activity too anormous. We will work as per  your needs and requirements.</p>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <video src="images/Production Id 4010512.m4v" autoplay muted loop></video>
+   
+    <div class="service">
+      <h1>"Our goal is to provide you with the best and happy products around."</h1>
+      <ul>
+        <li><i class="fas fa-check"></i> Modular Kitchen</li>
+        <li><i class="fas fa-check"></i> Wall and Floor Treatement</li>
+        <li><i class="fas fa-check"></i> Renovation Projects</li>
+        <li><i class="fas fa-check"></i> Commercial Projects</li>
+        <li><i class="fas fa-check"></i> Residential Projects</li>
+        <li><i class="fas fa-check"></i> Furniture Design</li>
+        <li><i class="fas fa-check"></i> Electrical/Lighting Designs</li>
+        <li><i class="fas fa-check"></i> Landscape</li>
+        <li><i class="fas fa-check"></i> Project Management and Execution</li>
+        <li><i class="fas fa-check"></i> Interior Styling</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="box">
+        <div class="dream">
+          <img src="images/1.jpg" alt="" onclick="openModal(); currentSlide(1)" class="hover-shadow">
+          <img src="images/4.jpg" alt="" onclick="openModal(); currentSlide(4)" class="hover-shadow">
+          <img src="images/7.jpg" alt="" onclick="openModal(); currentSlide(7)" class="hover-shadow">
+          <img src="images/10.jpg" alt="" onclick="openModal(); currentSlide(10)" class="hover-shadow">
+        </div>
+        <div class="dream">
+          <img src="images/2.jpg" alt="" onclick="openModal(); currentSlide(2)" class="hover-shadow">
+          <img src="images/5.jpg" alt="" onclick="openModal(); currentSlide(5)" class="hover-shadow">
+          <img src="images/8.jpg" alt="" onclick="openModal(); currentSlide(8)" class="hover-shadow">
+          <img src="images/11.jpg" alt="" onclick="openModal(); currentSlide(11)" class="hover-shadow">
+        </div>
+        <div class="dream">
+          <img src="images/3.jpg" alt="" onclick="openModal(); currentSlide(3)" class="hover-shadow">
+          <img src="images/6.jpg" alt="" onclick="openModal(); currentSlide(6)" class="hover-shadow">
+          <img src="images/9.jpg" alt="" onclick="openModal(); currentSlide(9)" class="hover-shadow">
+          <img src="images/12.jpg" alt="" onclick="openModal(); currentSlide(12)" class="hover-shadow">
+        </div>
+      </div>
+      <div class="see-more"><a href="gallery.html">See More</a></div>
+    </div>
+
+      <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close cursor" onclick="closeModal()"> &times;</span>
+      
+        <div class="mySlides">
+          <div class="numbertext">1 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/3.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/4.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/5.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/6.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">7 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/7.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">8 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/8.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">9 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/9.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">10 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/10.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">11 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/11.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">12 / 12</div>
+          <div class="caption">Arteza Interiors</div>
+          <img src="images/12.jpg" style="width:100%">
+        </div>
+      
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </section>
+
+  <section class="reach-us-at" id="contact">
+    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.66610453318!2d73.84597931436781!3d18.45346327604065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eaceab6522c5%3A0xe10a93d3c2468271!2sShree%20Venkatesh%20Puram!5e0!3m2!1sen!2sin!4v1644924163579!5m2!1sen!2sin" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+    <h3 class="info">For all project inquiries, please email arteza.interiordesigners@gmail.com with the subject <br>NEW PROJECT</h3>
+    <p class="address">C2 502, Shree Venktesh Puram Apartment, Phale Nagar, Katraj, Pune 411046.<br><span>Contact Number +91 8208777362</span></p>
+    <p class="social-media">follow us at</p>
+    <div class="media-icons">
+      <a href="https://wa.me/918208777362"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/arteza_interiors?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/arteza.interiors"><i class="fa-brands fa-facebook-square"></i></a>
+      <a href="mailto:arteza.interiordesigners@gmail.com?subject=ENQUIRY!!!"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span class="footer-title">ARTEZA INTERIORS</span>
+    <p>&copy; Copyright 2022 <a href="#">Arteza Interiors</a>. All Rights Reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+
+  <script>(function(w, d) { w.CollectId = "624d2f7d4a37fc68f8b4ec2c"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
+  </script>
+
+</body>
+</html>
